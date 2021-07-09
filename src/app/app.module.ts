@@ -6,6 +6,7 @@ import { AppComponent } from './app.component';
 
 import { SharedModule } from './shared/shared.module';
 import { GifsModule } from './gifs/gifs.module';
+import { AppRoutingRoutingModule } from './app-routing.module';
 
 @NgModule({
   declarations: [
@@ -14,6 +15,7 @@ import { GifsModule } from './gifs/gifs.module';
   imports: [
     BrowserModule,
     HttpClientModule,
+    AppRoutingRoutingModule,
     SharedModule,
     GifsModule
   ],
